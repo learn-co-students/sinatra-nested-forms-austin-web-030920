@@ -1,0 +1,29 @@
+<form method = "POST" action = "/pirates">
+    <h2>Pirate</h2>
+    <label for="pirate">Pirate Name</label><br>
+    <input type="text" id="pirate" name="pirate[name]"><br>
+    <label for="weight">Pirate Weight</label><br>
+    <input type="text" id="weight" name="pirate[weight]"><br>
+    <label for="height">Pirate Height</label><br>
+    <input type="text" id="height" name="pirate[height]"><br>
+
+
+    <h2>Ship(s)</h2>
+    <label for="ship1name">Pirate's First Ship</label><br>
+    <input type="text" id="ship1name" name="pirate[ships][][name]"><br>
+    <label for="ship1type">Pirate's First Ship</label><br>
+    <input type="text" id="ship1type" name="pirate[ships][][type]"><br>
+    <label for="ship1booty">Pirate's First Ship</label><br>
+    <input type="text" id="ship1booty" name="pirate[ships][][booty]"><br>
+
+
+
+    <label for="ship2name">Pirate's Second Ship</label><br>
+    <input type="text" id="ship2name" name="pirate[ships][][name]"><br>
+    <label for="ship2type">Pirate's First Ship</label><br>
+    <input type="text" id="ship2type" name="pirate[ships][][type]"><br>
+    <label for="ship2booty">Pirate's First Ship</label><br>
+    <input type="text" id="ship2booty" name="pirate[ships][][booty]"><br>"><br>
+
+    <input type="submit" value="submit">
+</form>
